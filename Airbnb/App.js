@@ -10,6 +10,10 @@ import React from 'react';
 // import type {Node} from 'react';
 import Entypo from 'react-native-vector-icons/Entypo';
 import Home from './src/screens/Home';
+import Post from './src/components/Post';
+
+
+
 
 
 
@@ -53,7 +57,11 @@ const App = () => {
 
 
 
-      <Home/>
+      {/* <Home/> */}
+      <Post title={"Title"} price={36}/>
+      <Post/>
+      <Post/>
+
 
 
 
